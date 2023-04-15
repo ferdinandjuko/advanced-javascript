@@ -72,7 +72,7 @@ function creerCookie(name, value, exp) {
 function listeCookies() {
     let cookies = document.cookie.split(';')
     if(cookies.join() === '') {
-        infoTxt.innerText = 'La liste d cookes es vide'
+        infoTxt.innerText = 'La liste de cookies est vide'
         return
     }
     affichage.innerText = ''
