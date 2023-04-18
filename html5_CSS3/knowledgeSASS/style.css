@@ -1,3 +1,15 @@
+.buttons-exercise {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: white;
+    text-align: center;
+  }
+
 .btn {
     padding: 15px;
     border: none;
