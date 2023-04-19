@@ -1,3 +1,8 @@
+header {
+    background-color: white;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+}
 .navbar {
     display: flex;
     flex-direction: row;
@@ -7,6 +12,10 @@
 .navbar__link {
     margin-left: 30px;
     color: #242424;
+    text-decoration: none;
+}
+.navbar__link--purple {
+    color: purple;
 }
 
 
